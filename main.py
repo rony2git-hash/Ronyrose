@@ -9,7 +9,7 @@ from telegram.constants import ParseMode
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 # === CONFIG ===
-BOT_TOKEN = "7943230508:AAErl2a-EcEGGEMEcgYvH1sK5o6owUqCE-I"
+BOT_TOKEN = "7549965981:AAH4gvaz18_bkUhJHaHffKfkabABJXm-ATk"
 
 # Channel / Group Check
 CHANNEL_USERNAME = "@Rose_X_Files"
