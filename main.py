@@ -7,19 +7,19 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME", "@YourChannel")
-CHANNEL_JOIN_URL = os.getenv("CHANNEL_JOIN_URL", "https://t.me/YourChannel")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7549965981:AAH4gvaz18_bkUhJHaHffKfkabABJXm-ATk")
+CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME", "https://t.me/Owner_By_Rose")
+CHANNEL_JOIN_URL = os.getenv("CHANNEL_JOIN_URL", "https://t.me/stangerboy")
 
-WELCOME_IMAGE = "https://i.ibb.co/NnsHbxb8/Ag-ACAg-UAAxk-BAAM-a-O-ks-Wahgns5-Fdol-Wl-UL01pz-HMAAp-QMaxt-Dm3l-XDLx-Jye-W1hp8-BAAMCAAN5-AAM2-BA.jpg"
+WELCOME_IMAGE = "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg"
 WELCOME_TEXT = (
-"╔═════════════════════════════════╗\n"
+"╔══════════════════════════════╗\n"
 "║ 🔥 Welcome to Rose-X Bot🔥 \n"
-"╠═════════════════════════════════╣\n"
+"╠══════════════════════════════╣\n"
 "║ Select an option below to search 💥\n"
-"╠═════════════════════════════════╣                            \n"
+"╠═══════════════════════════════╣                            \n"
 "║  🛠️ Developed By: @Ros3_Zii 💝  \n"
-"╚═════════════════════════════════╝"
+"╚═══════════════════════════════╝"
 )
 
 MOBILE_API = "https://number-to-information.vercel.app/fetch?key=NO-LOVE&num="
